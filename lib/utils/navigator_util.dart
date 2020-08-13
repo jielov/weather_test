@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:weather_test/page/root/skip_page.dart';
+import 'package:weather_test/page/root/start_page.dart';
 
 class NavigatorUtil {
-
-
 //  /// 验证码页面
 //  static Future<bool> toVerifyPage(BuildContext context,
 //      {@required String phone, @required bool isRegister}) async {
@@ -16,8 +16,15 @@ class NavigatorUtil {
 //    );
 //  }
 
+//  初始页
+  static naSkipPage(BuildContext context) {
+    return navigatorRouter(context, SkipPage());
+  }
 
-
+  //启动页
+  static naStartPage(BuildContext context) {
+    return navigatorRouter(context, StartPage());
+  }
 
 //  ///仓库版本列表
 //  static Future goReleasePage(BuildContext context, String userName,
@@ -47,8 +54,4 @@ class NavigatorUtil {
             .copyWith(textScaleFactor: 1),
         child: widget);
   }
-
-
-
-
 }

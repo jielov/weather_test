@@ -34,6 +34,16 @@ dependencies:
   json_annotation: ^3.0.1  #用来创建JSON序列化和反序列化代码的注释
   #https://pub.flutter-io.cn/packages/shared_preferences
   shared_preferences: ^0.5.8  #共享
+  #https://pub.flutter-io.cn/packages/http_utils
+  http_utils: ^1.6.3  #HTTP工具的集合
+  #https://pub.flutter-io.cn/packages/url_launcher
+  url_launcher: ^5.5.0  #移动平台中启动URL
+  #https://pub.flutter-io.cn/packages/cached_network_image/install
+  cached_network_image: ^2.2.0+1       #缓存的网络映像
+  #https://pub.flutter-io.cn/packages/flutter_inappwebview
+  flutter_inappwebview: ^4.0.0+4   #嵌入式Web视图
+  #https://pub.flutter-io.cn/packages/flukit
+  flukit: ^1.0.2  #Flutter程序包
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -57,6 +67,10 @@ flutter:
     - assets/images/
     - assets/images/icon_bar_back.png
     - assets/images/icon_bar_black_back.png
+    - assets/images/start_01.jpg
+    - assets/images/start_02.jpg
+    - assets/images/start_03.jpg
+    - assets/images/start_04.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
